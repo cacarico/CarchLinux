@@ -1,4 +1,5 @@
 build: ## Builds CarchLinux
+	@sudo mkarchiso -v -w iso/carchlinux/output -o iso/carchlinux/output carchlinux	
 
 .PHONY: help build
 
